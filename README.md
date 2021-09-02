@@ -15,9 +15,9 @@ This is a simple SASS/SCSS plugin to display user avatars, _primarily in cards_,
 
 Though the stack is intended for a card, you can use this plugin in any component.
 
-### HTML
+### Markup
 
-Insert the following code inside a card
+Insert the card in the following way inside the markup file
 
 ```html
 <div class="card">
