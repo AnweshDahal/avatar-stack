@@ -24,7 +24,7 @@ Insert the card in the following way inside the markup file
 	<div class="card-header">
 		...
 		<div class="avatars">
-			<!-- You can use it with just an image file -->
+			<!-- You can use it with just an image tag -->
 			<img src"..." class="avatar"/>
 			<!-- Or in an <a> tag with the image inside -->
 			<a href="..." class="avatar">
