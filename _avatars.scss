@@ -1,0 +1,35 @@
+// Variables
+$avatar-border: #fff;
+$avatar-width: 1.85rem;
+$avatar-container-width: 160px;
+
+/*
+ * This class is the container for all of the avatars
+ * it is recommended to keep this container's width under
+   80% of the parent container width
+*/
+.avatars {
+	position: relative;
+	display: flex;
+	max-width: $avatar-container-width;
+	overflow-x: hidden;
+	.avatar {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: $avatar-width;
+		margin-left: -0.5rem;
+		overflow: hidden;
+		border-radius: 1.6rem;
+		border: 2px solid white;
+		background-color: #fff;
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: cover;
+		}
+	}
+	.avatar:first-child {
+		margin-left: 0;
+	}
+}
